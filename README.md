@@ -1,6 +1,6 @@
 # 🌐 Portfolio Website
 
-I built this **Portfolio Website** using **HTML**, **CSS**, and basic **JavaScript** as a practice project to improve my Frontend Development skills.  
+I built this **Portfolio Website** using **HTML**, **CSS**, and Basic **JavaScript** as a practice project to improve my Frontend Development skills.  
 It's a simple and clean representation of my work and interests.
 
 ---
