@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.main{
+    height: 800px;
+    width: 1300px;
+    background: linear-gradient(90deg, rgb(9, 60, 60) 20%, rgb(45, 11, 61) 60%, rgb(36, 29, 29) 100%);
+    color: white;
+    border-radius: 5%;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: tomato;
+    display: inline-block;
+    margin: 50px;
+}
+
+.info{
+    display: inline-block;
+}
+
+.about{
+    margin-left: 500px;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.about:hover{
+    color: #cba013;
+    font-size: 1.4rem;
+    transition: all 0.1s ease-in;
+}
+
+.contact{
+    margin-left: 80px;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.contact:hover{
+    color: #b9850c;
+    font-size: 1.4rem;
+    transition: all 0.1s linear;
+}
+
+.project{
+    margin-left: 80px;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.project:hover{
+    color: #b9850c;
+    font-size: 1.4rem;
+    transition: all 0.1s linear;
+}
+
+.image{
+    height: 420px;
+    width: 420px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    background-image: url(profile.webp);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 400px;
+    width: 400px;
+    border-radius:50%;
+}
+
+.hero{
+    display: flex;
+}
+
+h1{
+    display: inline-block;
+    font-size: 3.2rem;
+    margin-bottom: 0.56rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: calc();
+    margin-left: 80px;;
+}
+
+.name{
+    color: tomato;
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 3.2rem;
+}
+
+h1, h2, .desc{
+    max-width: 90%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    word-spacing : 2.5px;
+    letter-spacing : 0.6px;
+}
+
+
+
+.student{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(194, 139, 57);
+}
+
+
+.desc{
+    margin-top: 0.5rem;
+    font-size: 17px;
+    color: rgb(229, 214, 152);
+}
+
+button {
+    align-self: flex-start;
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+     background: linear-gradient(90deg, rgb(19, 102, 102) 20%, rgb(98, 63, 114) 60%, rgb(153, 37, 37) 100%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 
+        background 0.3s,
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgb(153, 37, 37) 20%, rgb(98, 63, 114) 60% ,rgb(19, 102, 102) 100%);
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0px 0px 15px rgba(255, 75, 43, 0.6);
+}
